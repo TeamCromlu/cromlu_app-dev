@@ -67,7 +67,7 @@
 		// 	border-top 1px solid #01E6D5
 		a
 			font-size 1.2em
-			padding 1em 1em
+			padding 1em .5em
 			display block
 			font-weight bold
 			text-decoration none
@@ -98,7 +98,7 @@
 			display inline-block
 			border-bottom none
 			&:last-child
-				margin-left 2em
+				margin-left 1em
 				a
 					max-width 163px
 					margin auto
@@ -110,3 +110,11 @@
 						background-color #01E6D5
 						color white
 						border 1px solid #01E6D5
+						
+@media screen and (min-width 1000px)
+	.Header
+		&__botones
+			a 
+				padding 1em 1em
+			&:last-child
+				margin left 2em

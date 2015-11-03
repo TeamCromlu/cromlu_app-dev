@@ -16,6 +16,7 @@
     "hjs": "~0.0.6",
     "hogan": "^1.0.2",
     "hogan.js": "^3.0.2",
+    "jade": "^1.11.0",
     "morgan": "~1.6.1",
     "nodemailer": "^1.8.0",
     "nodemailer-smtp-transport": "^1.0.4",
