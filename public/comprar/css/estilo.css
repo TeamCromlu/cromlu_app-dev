@@ -199,7 +199,6 @@ body {
   color: #292929;
 }
 .plan__opcion {
-  margin: 1em;
   width: 30px;
   height: 30px;
   border: 1px solid #000;
@@ -209,10 +208,20 @@ body {
   display: inline-block;
   font-weight: bold;
 }
+.plan__titlePaypal {
+  vertical-align: middle;
+  display: inline-block;
+}
 .plan__titlePaypal h2 {
   display: inline-block;
-  line-height: 50px;
+  line-height: 40px;
   vertical-align: top;
+}
+.plan__banco h2 {
+  display: inline-block;
+}
+.plan__tarjeta h2 {
+  display: inline-block;
 }
 .plan__form {
   text-align: left;
@@ -244,6 +253,16 @@ body {
 .plan__form .button:hover {
   background-color: #00c7ff;
   border-bottom: 4px solid #006886;
+}
+.plan__paypal {
+  margin: 4em auto;
+  width: 90%;
+}
+.plan__paypalButton {
+  width: 100%;
+}
+.plan__ayudaInfo {
+  color: #87ceeb;
 }
 .promocion-especial {
   background: #f2f2f2;
@@ -389,20 +408,25 @@ body {
     width: 440px;
   }
   .plan__form input {
-    width: 430px;
+    width: 100%;
   }
   .plan__form .button {
-    width: 430px;
+    width: 100%;
     margin: 0 auto;
   }
   .plan__formDiv div {
+    width: 49%;
     display: inline-block;
   }
   .plan__formDiv div:first-child {
-    margin-right: 1em;
+    margin-right: 0.2em;
   }
   .plan__formDiv div input {
-    width: 205px;
+    width: 100%;
+  }
+  .plan__paypalButton {
+    margin: 0 auto;
+    max-width: 440px;
   }
 }
 @media (min-width: 768px) {
