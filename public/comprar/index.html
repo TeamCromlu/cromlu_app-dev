@@ -147,6 +147,8 @@
 		</article>
 	</div>
 </section>
+
+
 <section class="pagar">	
 		<div class="pagar__box">
 			<div class="plan__sub-title">
@@ -156,23 +158,34 @@
 				</h3>
 			</div>
 
-<!-- 			<div class="plan__tarjeta">
-				<div class="">A</div>
+			<div class="plan__tarjeta">
+				<div class="plan__opcion">A</div>
 				<h2>Por: <strong>Tarjeta de Credito/Debito</strong></h2><br>
-				<label for="pay__card--name">Titular de la tarjeta</label><br>
-				<input type="text" placeholder="Ingresa el nombre del titular" id="pay__card--name"><br>
-				<label for="pay__card--number">Numero de la tarjeta</label><br>
-				<input type="text" placeholder="Ingresa el numero " id="pay__card--number"><br>
-				<label for="pay__card--cvv">Codigo de Seguridad</label><br>
-				<input type="text" placeholder="CVV " id="pay__card--cvv"><br>
-				<label for="pay__card--vence">Fecha de vencimiento</label><br>
-				<input type="text" placeholder="MM/AA " id="pay__card--vence"><br>
-				<input type="submit" value="Pagar">
-			</div> -->
+				<form class="plan__form" method="post">
+					<label for="pay__card--name">Titular de la tarjeta</label><br>
+					<input type="text" placeholder="Ingresa el nombre del titular" id="pay__card--name"><br>
+					<label for="pay__card--number">Número de la tarjeta</label><br>
+					<input type="text" placeholder="Ingresa el numero " id="pay__card--number"><br>
+					<div class="plan__formDiv">
+						<div class="div">
+							<label for="pay__card--cvv">Codigo de Seguridad</label><br>
+							<input type="text" placeholder="CVV " id="pay__card--cvv">
+						</div>
+						<div class="div">
+							<label for="pay__card--vence">Fecha de vencimiento</label><br>
+							<input type="text" placeholder="MM/AA " id="pay__card--vence">
+						</div>
+					</div>
+					<input class="button" type="submit" value="Pagar">
+				</form>
+			</div>
 
 			<div class="plan__paypal">
-				<div class="">A</div>
-				<h2>Por: <img src="./image/paypal.png" alt="paypal"></h2><br>
+				<div class="plan__opcion">A</div>
+				<div class="plan__titlePaypal">
+					<h2>Por: </h2>
+					<img width="150px"src="./image/paypal.png" alt="paypal">
+				</div>
 				<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 					<input type="hidden" name="cmd" value="_s-xclick">
 					<input type="hidden" name="hosted_button_id" value="XYQW8VXKT9Z6J">
@@ -182,7 +195,7 @@
 			</div>
 
 			<div class="plan__banco">
-				<div class="">B</div>
+				<div class="plan__opcion">B</div>
 				<h2>Por: <strong>Deposito Bancario</strong></h2><br>
 				<article class="pagar__steps">
 					<figure>
@@ -226,8 +239,10 @@
 					</h3>
 				</div>
 			</div>
+
 		</div>
 </section>
+
 <section class="reto">
 	<h2>¿Listo para tener tu propio portafolio profesional en internet?</h2>
 </section>
