@@ -9,6 +9,10 @@ html {
 body {
   background: #fff;
 }
+.form_paypal {
+  padding-top: .7em;
+  padding-bottom: .7em;
+}
 .Header-Main {
   background: #fff;
 }
@@ -262,7 +266,7 @@ body {
   width: 100%;
 }
 .plan__ayudaInfo {
-  color: #87ceeb;
+  color: #00C55A;
 }
 .promocion-especial {
   background: #f2f2f2;
