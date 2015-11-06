@@ -9,10 +9,6 @@ html {
 body {
   background: #fff;
 }
-.form_paypal {
-  padding-top: .7em;
-  padding-bottom: .7em;
-}
 .Header-Main {
   background: #fff;
 }
@@ -266,7 +262,29 @@ body {
   width: 100%;
 }
 .plan__ayudaInfo {
-  color: #00C55A;
+  color: #87ceeb;
+}
+.plan__formPaypal {
+  margin: 1.5em 0;
+}
+.plan__formPaypal .form_paypal {
+  width: 200px;
+  display: inline-block;
+}
+.plan__formPaypal .form_paypal .bottomImage {
+  outline: 0;
+  width: 100%;
+  max-width: 300px;
+}
+.plan__formPaypal img {
+  margin-top: 0.5em;
+  vertical-align: top;
+  display: inline-block;
+  width: 50%;
+  max-width: 200px;
+}
+.plan__titleB {
+  margin: 1.5em 0;
 }
 .promocion-especial {
   background: #f2f2f2;
@@ -451,6 +469,9 @@ body {
   .promocion-especial__box .contenido__promo .promo__letra p,
   .promocion-especial__contenido .contenido__promo .promo__letra p {
     text-align: left;
+  }
+  .plan__formPaypal img {
+    margin-left: 1em;
   }
 }
 @media (min-width: 768px) {
