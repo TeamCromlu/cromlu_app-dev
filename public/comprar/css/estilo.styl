@@ -164,7 +164,7 @@ body
           font-size 1.5em
           color #292929
   &__opcion
-    margin 1em
+    // margin 1em
     width 30px
     height 30px
     border 1px solid black
@@ -174,11 +174,19 @@ body
     display inline-block
     font-weight bold
   &__titlePaypal
+    vertical-align middle
+    display inline-block
     h2
       // font-size 1em
       display inline-block
-      line-height 50px
+      line-height 40px
       vertical-align top
+  &__banco
+    h2
+      display inline-block
+  &__tarjeta
+    h2
+      display inline-block
   &__form
     text-align left
     width 90%
@@ -205,6 +213,14 @@ body
       &:hover
         background-color #00C7FF
         border-bottom 4px solid #006886 
+  &__paypal
+    margin 4em auto
+    width 90%
+  &__paypalButton
+    width 100%
+  &__ayudaInfo
+    color skyblue
+    
 
 .promocion-especial
   background #f2f2f2
@@ -334,17 +350,22 @@ body
     // text-align left
     width 440px
     input
-      width 430px
+      width 100%
     .button
-      width 430px
+      width 100%
       margin 0 auto
   .plan__formDiv
     div
+      width 49%
       display inline-block
       &:first-child
-        margin-right 1em
+        margin-right .2em
       input
-        width 205px
+        width 100%
+  .plan__paypalButton
+    margin 0 auto
+    max-width 440px
+    
 
 @media (min-width 768px)
   .promocion-especial__box .contenido__title, .promocion-especial__contenido .contenido__title
