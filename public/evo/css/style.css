@@ -59,6 +59,7 @@ body {
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   position: fixed;
+  z-index: 1;
 }
 .Header_box--nav .box--nav__logo {
   display: inline-block;
@@ -234,6 +235,10 @@ body {
   padding-bottom: 2em;
 }
 @media (min-width: 768px) {
+  .Header_avatar img:hover {
+    transform: rotate(+14deg);
+    transition: .4s;
+  }
   .Header__main {
     height: 400px;
   }
@@ -242,12 +247,21 @@ body {
   }
   .Header_nav {
     display: block;
+    padding-top: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
   }
   .Header_nav .nav_item {
     display: inline-block;
   }
   .Header_nav {
     padding-top: 0;
+    padding-top: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
   }
   .skill {
     background: #3AFBF2;
@@ -289,11 +303,18 @@ body {
   }
 }
 @media (min-width: 1000px) {
+  .Header_avatar img:hover {
+    transform: rotate(+14deg);
+    transition: .4s;
+  }
   .Header__manin {
     height: 400px;
   }
   .Header_nav {
     padding-top: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
   }
   .skill {
     background: #3AFBF2;
@@ -334,8 +355,12 @@ body {
   }
 }
 @media (min-width: 1020px) {
+  .Header_avatar img:hover {
+    transform: rotate(+14deg);
+    transition: .4s;
+  }
   .Header_Autor-box {
-    padding-top: 3em;
+    padding-top: 7em;
   }
   .Header_main {
     padding-bottom: 19em;
