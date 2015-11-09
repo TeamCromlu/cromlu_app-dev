@@ -435,6 +435,27 @@ body {
   margin-top: 2em;
   display: block;
   width: 100%;
+  position: relative;
+}
+
+.escoge__modelos--ver{
+  position: absolute;
+  top: 50%;
+  background: rgba(0, 195, 177, 0.66);
+  color: white;
+  padding: .8em;
+  width: 90px;
+  display: block;
+  margin: 0 auto;
+  right: 0;
+  left: 0;
+  text-decoration: none;
+}
+
+.escoge__modelos--ver:hover{
+  padding: 1.2em;
+  background: rgba(0, 195, 177, 0.92);
+  transition: .2s;
 }
 .escoge__modelos .modelos--item h3 {
   color: #171717;
