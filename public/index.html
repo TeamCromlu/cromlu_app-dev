@@ -33,8 +33,8 @@
               <li class="Header__botones"><a href="#beneficios">Beneficios</a></li>
               <li class="Header__botones"><a href="#proceso">Proceso</a></li>
               <li class="Header__botones"><a href="#modelo">Modelos</a></li>
-              <li class="Header__botones"><a href="./comprar">Precio</a></li>
-              <li class="Header__botones"><a href="#comenzar">Comenzar</a></li>
+              <!-- <li class="Header__botones"><a href="./comprar">Precio</a></li> -->
+              <li class="Header__botones"><a href="#comprar">Comprar</a></li>
             </ul>
           </nav>
         </div>
@@ -191,15 +191,146 @@
               <p lang="es" dir="ltr">Los profesionales necesitan un portafolio realmente efectivo, que muestre lo mejor de ti, dejate mostrar confia en Cromlu ;)</p>— Cromlu (@TeamCromlu) <a href="https://twitter.com/TeamCromlu/status/651133491858419712">octubre 5, 2015</a>
             </blockquote>
             <script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <!-- <a name="comprar"></a> -->
+          </article>
+        </div> 
+      </div>
+    </section>
+    
+    <a name="comprar"></a>
+    <section class="plan">
+      <div class="plan__box">
+        <div class="plan__title">
+          <h2>
+            Comencemos a construir tu épico portafolio profesional
+          </h2>
+        </div>
+        <div class="plan__sub-title">
+          <div class="sub-title__ico"></div>
+          <h3>
+            Elige un plan :
+          </h3>
+        </div>
+        <div class="plan__paquetes">
+          <article class="paquetes__estandar">
+            <div class="estandar__title">
+              <h2>Estandar</h2>
+            </div>
+            <div class="estandar__precio">
+              <p>
+                Antes <strong><s>$250 USD</s>(dolares)</strong>
+              </p>
+              <h2>
+                $125 USD
+              </h2>
+              <span>
+                <strong>(dolares)</strong>
+              </span>
+              <p>
+                *si eres de Perú pagas s/400 nuevos soles
+              </p>
+            </div>
+            <div class="estandar__atributos">
+              <ul>
+                <li>
+                  Estructura y arquitectura de información
+                </li>
+                <li>
+                  Diseño y desarrollo
+                </li>
+                <li>
+                  Perzonalización y estilado
+                </li>
+                <li>
+                  Reponsive design
+                </li>
+                <li>
+                  Normalizar en dispositivos
+                </li>
+                <li>
+                  Hosting + dominio<br>
+                  (alojamiento y url.com)
+                </li>
+              </ul>
+            </div>
+            <div class="estandar__precio-box">
+              <a href="/comprar"  class="estandar__precio-btn--action">Elegir Plan</a>
+            </div>
+          </article>
+          <article class="paquetes__premium">
+            <div class="premium__title">
+              <h2>
+                Premium
+              </h2>
+            </div>
+            <div class="premium__contacto">
+              <h3>contactanos</h3>
+              <p>
+                web@cromlu.com
+              </p>
+              <h3>ó llamanos</h3>
+              <p>
+                945873773
+              </p>
+            </div>
+            <div class="premium__condiciones">
+              <p>
+                El costo de proyecto varia acorde a lo que buscas
+              </p>
+            </div>
+            <div class="premium__atributos">
+              <ul>
+                <li>
+                  Todo lo del plan estandar
+                </li>
+                <li>
+                  Diseño a medida
+                </li>
+                <li>
+                  Diseño tarjeta de presentación
+                </li>
+                <li>
+                  Desarrollo de proyecto especial
+                </li>
+              </ul>
+            </div>
+            <div class="estandar__precio-box">
+              <a href="/comprar"  class="estandar__precio-btn--action  color-green">Elegir Plan</a>
+            </div>
           </article>
         </div>
       </div>
-    </section><a name="comenzar"></a>
+    </section>
+    <section class="promocion-especial">
+      <div class="promocion-especial__box">
+        <article class="promocion-especial__contenido">
+          <div class="contenido__title">
+            <h2>
+              Precio al 50% descuento 
+            </h2>
+          </div>
+          <div class="contenido__promo">
+            <div class="promo__smile">
+              <figure>
+                <img src="image/smile.png" alt="">
+              </figure>
+            </div>
+            <div class="promo__letra">
+              <p>
+               Accede pagando a mitad de precio en el plan estandar, antes <s>$250</s> USD, ahora tu portafolio profesional a solo <strong>$125 USD</strong>. Oferta valida solo por Noviembre.
+              </p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <a name="comenzar"></a>
     <section class="contacto">
       <div class="contacto__box">
         <div class="contacto__title">
-          <h2> ¿Estas listo para comenzar? </h2>
-          <p> Contáctanos y ten tu propio portafolio profesional web de forma efectiva </p>
+          <h2> ¿Más info? Contactanos </h2>
+          <p> Dejanos tus datos y te enviaremos un mail con detalles </p>
         </div>
         <div class="contacto__contenido">
           <article class="contenido__contacto">
@@ -220,13 +351,13 @@
               <input id="name" name="nombre" type="text" placeholder="escribre tu nombre" required>
               <label for="mail"> Tu correo electrónico (*) </label>
               <input id="mail" name="email" type="email" placeholder="escribre tu e-mail" required>
-              <label for="telefono"> Tu teléfono (opcional) </label>
-              <input id="telefono" name="telefono" type="text" placeholder="escribe tu telefono">
-              <label for="mensaje"> Mensaje (opcional) </label>
-              <textarea id="mensaje" name="mensaje" placeholder="escribe tu mensaje">Quiero tener mi propio portafolio web profesional con @TeamCromlu</textarea>
-              <input id="send" name="Submit" type="submit" value="Quiero mi portafolio" class="btn_enviar">
+              <!-- <label for="telefono"> Tu teléfono (opcional) </label>
+              <input id="telefono" name="telefono" type="text" placeholder="escribe tu telefono"> -->
+              <label for="mensaje"> Mensaje (*)</label>
+              <textarea id="mensaje" name="mensaje" placeholder="escribe tu mensaje"  required>hola quiero más información sobre los portafolios @TeamCromlu :)</textarea>
+              <input id="send" name="Submit" type="submit" value="Enviar mensaje" class="btn_enviar">
             </form>
-            <p><strong>*</strong> Dejar tu correo electrónico es importante para comenzar <strong>;)</strong></p>
+            <p><strong>*</strong> Estos datos son importantantes <strong>;)</strong></p>
           </article>
         </div>
       </div>
