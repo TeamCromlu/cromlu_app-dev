@@ -805,9 +805,17 @@ margin
   border-bottom: 5px solid #1fada2;
   font-size: 1.3em;
 }
+.plan .estandar__precio-box .estandar__precio-btn--action:hover {
+  background-color: #5ffbee;
+  font-size: 1.4em;
+  padding: 1em 2.1em;
+}
 .plan .estandar__precio-box .estandar__precio-btn--action.color-green {
   background-color: #2ae475;
   border-bottom: 5px solid #179048;
+}
+.plan .estandar__precio-box .estandar__precio-btn--action.color-green:hover {
+  background: #43ff8f;
 }
 .plan .paquetes__premium {
   display: block;
