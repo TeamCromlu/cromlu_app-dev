@@ -194,20 +194,20 @@ body {
 @media screen and (min-width: 321px) {
   .Front__box {
     margin: auto;
-    width: 85%;
+    width: 66%;
   }
 }
 @media screen and (min-width: 764px) {
   .Front {
-    padding: 14.7% 0;
+    padding: 11.7% 0;
   }
   .Front__text h2 {
-    font-size: 3em;
+    font-size: 3.4em;
   }
   .Front__text p {
     margin: auto;
-    width: 50%;
-    font-size: 1.7em;
+    width: 66%;
+    font-size: 1.9em;
   }
 }
 .Benefit {
@@ -235,6 +235,9 @@ body {
   border-radius: 25px;
   text-align: center;
   vertical-align: top;
+}
+.Benefit__cajas p {
+  color: #585858;
 }
 .Benefit__cajas figure img {
   width: 200px;
@@ -266,6 +269,7 @@ body {
   }
   .Benefit__cajas .text p {
     font-size: 1.2em;
+    color: #585858;
   }
   .Benefit__text h2 {
     font-size: 3.2em;
