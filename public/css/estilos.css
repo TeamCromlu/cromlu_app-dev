@@ -185,6 +185,7 @@ body {
   color: #fff;
   border-radius: 50px;
   background-color: rgba(0,210,196,0.71);
+  display: block;
 }
 .Front__botoncito a:hover {
   color: #fff;
@@ -208,6 +209,9 @@ body {
     margin: auto;
     width: 66%;
     font-size: 1.9em;
+  }
+  .Front__botoncito a {
+    display: initial;
   }
 }
 .Benefit {
