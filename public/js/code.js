@@ -1,6 +1,6 @@
 $(document).ready(main);
 $(document).ready(adiosMenu);
-$(document).ready(validarFormulario);
+// $(document).ready(validarFormulario);
 
 
 var contador = 1;
@@ -37,13 +37,13 @@ function adiosMenu(){
 
 
 
-function validarFormulario(){
-  var nombre = document.forms["form1"]["nombre"].value;
-  var email = document.forms["form1"]["email"].value;
+// function validarFormulario(){
+//   var nombre = document.forms["form1"]["nombre"].value;
+//   var email = document.forms["form1"]["email"].value;
   
-  if(nombre == "" && email == ""){
-    document.getElementById("name").style.border="1px solid red";
-    document.getElementById("mail").style.border="1px solid red";
-    error = true;
-  }
-}
+//   if(nombre == "" && email == ""){
+//     document.getElementById("name").style.border="1px solid red";
+//     document.getElementById("mail").style.border="1px solid red";
+//     error = true;
+//   }
+// }

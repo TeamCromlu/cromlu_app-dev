@@ -26,6 +26,7 @@
 			margin-top 2em
 			display block
 			width 100%
+			position relative
 			h3
 				color gris_letra
 			figure
@@ -36,6 +37,23 @@
 					&:hover
 						background #61402C
 						box-shadow rgb(255, 82, 0) 0px 0px 28px
+	&__modelos--ver
+		position absolute
+		top 50%
+		background rgba(0, 195, 177, 0.66)
+		color white
+		padding .8em
+		width 90px
+		display block
+		margin 0 auto
+		right 0
+		left 0
+		text-decoration none
+		
+		&:hover
+			padding: 1.2em;
+			background: rgba(0, 195, 177, 0.92);
+			transition: .2s;
 															
 @media (min-width 768px)
 	.escoge
